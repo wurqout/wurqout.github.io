@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Wurqout</title>
     <base href="/" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bulma/bulma.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="265x256" href="/icons/icon-256.png" />
+    <link rel="apple-touch-icon" sizes="128x128" href="/icons/icon-128.png" />
+    <link rel="apple-touch-icon" sizes="64x64" href="/icons/icon-64.png" />
+    <link rel="apple-touch-icon" sizes="32x32" href="/icons/icon-32.png" />
 </head>
 
 <body>
-    <app>Loading...</app>
-    
+    <app>
+        <section class="hero is-primary is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="buttons is-centered">
+                        <button class="button is-primary is-loading is-large">Loading</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </app>
+
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
         // Single Page Apps for GitHub Pages
@@ -60,8 +74,11 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/b87b9314de.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
