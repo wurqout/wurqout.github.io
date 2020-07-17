@@ -79,6 +79,30 @@
     <script>navigator.serviceWorker.register('service-worker.js');</script>
     <script src="js/app.js"></script>
     <script src="https://kit.fontawesome.com/b87b9314de.js" crossorigin="anonymous"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCpn_y_7fWinj4Nd0wxkH9K8PJmTWcBQUY",
+            authDomain: "wurqout-b6b99.firebaseapp.com",
+            databaseURL: "https://wurqout-b6b99.firebaseio.com",
+            projectId: "wurqout-b6b99",
+            storageBucket: "wurqout-b6b99.appspot.com",
+            messagingSenderId: "866083701197",
+            appId: "1:866083701197:web:d26092dd5dca5635fdc484",
+            measurementId: "G-HEL9WZG0FJ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </body>
 
 </html>

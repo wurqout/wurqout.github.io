@@ -105,11 +105,11 @@
       "url": "icons\/icon-64.png"
     },
     {
-      "hash": "sha256-\/0szh6T3paZghN0FZOwqxgN5vNYheNb4wa2SU3yfemY=",
+      "hash": "sha256-vIZouJQ7dCFWgEcy5DuYP8GHB5wgfcbeQ+pX5lqK228=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-zZOYnIAzPVG3SbH23pNzD5Xy5I8GuTh\/suCrnwg62bI=",
+      "hash": "sha256-cWCCMEzXuL2tWBrL1IEbHuCN\/u2vghaDL9C0gEyADyg=",
       "url": "js\/app.js"
     },
     {
@@ -121,7 +121,7 @@
       "url": "logotext-516.png"
     },
     {
-      "hash": "sha256-Ydz\/kor+ra2la6IEP95ApaZxagpksGKZAec17jZ8DA8=",
+      "hash": "sha256-SavmAvrVwO4uFOdhZxXHEGrz3PUnRmwXymbi6ZJDsQQ=",
       "url": "manifest.json"
     },
     {
